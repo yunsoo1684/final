@@ -1,0 +1,61 @@
+@charset "EUC-KR";
+
+header div{
+   text-align: left;
+   font-size:13px;
+}
+
+header div nav{
+   text-align: right;
+   font-size:13px;
+}
+
+header #updiv{
+   background-color: black;
+}
+
+header #downdiv {
+   color:black;
+}
+
+header #botdiv {
+   list-style-type: none;
+   display: inline;
+   margin-left: 50px;
+   color: white;
+   text-decoration: none;
+}
+
+header li{
+   list-style-type: none;
+   display: inline;
+   margin-left: 50px;
+   color: white;
+   text-decoration: none;
+}
+
+header li a{
+   text-decoration: none;
+}
+
+header li a:visited{
+   color:white;
+   text-decoration: none;
+}
+
+#mainSubMenu{
+   float: right;
+   margin-right: 100px;
+}
+   
+footer{
+   clear:both;
+}
+
+footer p{
+   text-align: center;
+}
+   
+#mainImg{
+   float:  left;
+}
